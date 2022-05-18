@@ -13,6 +13,6 @@ COPY ./ ./
 EXPOSE 3000
 # required for docker desktop port mapping
 
-RUN npm test
+RUN npm test --forceExit
 
 CMD ["npm", "start"]
