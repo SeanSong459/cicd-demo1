@@ -15,4 +15,5 @@ EXPOSE 3000
 
 # RUN npm test --forceExit
 
-CMD ["npm", "start"]
+# CMD ["npm", "start"]
+CMD npm start
